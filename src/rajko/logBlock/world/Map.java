@@ -46,13 +46,13 @@ public class Map {
      * @return 2 D pole blokov
      */
     public MyObject[][] getBoard() {
-        MyObject[][] temp = new MyObject[this.ySize][this.xSize];
+       /* MyObject[][] temp = new MyObject[this.ySize][this.xSize];
         for (int y = 0; y < this.ySize; y++) {
             for (int x = 0; x < this.xSize; x++) {
                 temp[y][x] = this.board[y][x];
             }
-        }
-        return temp;
+        }*/
+        return this.board; //Encapsulation violation but performance enhancment
     }
 
     /**
