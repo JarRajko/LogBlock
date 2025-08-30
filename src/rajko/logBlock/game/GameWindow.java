@@ -85,8 +85,8 @@ public class GameWindow extends JTable implements ActionListener, KeyListener, M
         int verticalTiles = 20;/*24;*/
         int textureHeight = 32;
         int textureWidth = 32;
-        int characterXposition = 7; //position to paint character
-        int characterYposition = 7;
+        int characterXposition = 16; //position to paint character
+        int characterYposition = 10;
 
         for (int y = this.player.getY() - (verticalTiles); y < this.player.getY() + verticalTiles; y++) {
             for (int x = this.player.getX() - (horizontalTiles); x < this.player.getX() + horizontalTiles; x++) {
